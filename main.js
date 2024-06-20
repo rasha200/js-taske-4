@@ -52,8 +52,9 @@ role.innerHTML = 'Admin Role';
 
 
 //taske 10
-// let nested = document.getElementsByTagName('section.span');
+let secc = document.getElementById('section4');
+let nested = secc.getElementsByTagName('span');
 
-// for ( let o = 0; o < nested.length; o++){
-//     nested[o].innerHTML = 'Span Element';
-// }
+for ( let o = 0; o < nested.length; o++){
+    nested[o].innerHTML = 'Span Element';
+}
